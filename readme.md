@@ -74,6 +74,8 @@ docker-compose --profile mysql up
 
 or
 
+# modified for testing
+
 ```bash
 docker-compose --profile postgres up
 ```
