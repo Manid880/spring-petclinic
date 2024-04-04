@@ -271,11 +271,6 @@
   </build>
 
 <distributionManagement>
-  <repository>
-    <id>nexus</id>
-    <name>Remote Repo</name>
-    <url>http://34.67.147.64:8081/repository/maven-remote-repo/</url>
-  </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>Remote Repo</name>
