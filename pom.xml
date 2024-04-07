@@ -271,10 +271,15 @@
   </build>
 
 <distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <name>Release Repo</name>
+    <url>http://34.135.13.172:8081/repository/mvn-remote-repo/</url>
+  </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <name>Remote Repo</name>
-    <url>http://34.67.147.64:8081/repository/maven-remote-repo/</url>
+    <name>Snapshot Repo</name>
+    <url>http://34.135.13.172:8081/repository/mvn-remote-repo/</url>
   </snapshotRepository>
 </distributionManagement>
 
