@@ -271,11 +271,6 @@
   </build>
 
 <distributionManagement>
-  <repository>
-    <id>nexus</id>
-    <name>Release Repo</name>
-    <url>http://34.135.13.172:8081/repository/mvn-remote-repo/</url>
-  </repository>
   <snapshotRepository>
     <id>nexus</id>
     <name>Snapshot Repo</name>
