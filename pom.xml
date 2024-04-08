@@ -270,13 +270,13 @@
     </plugins>
   </build>
 
-<distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <name>Snapshot Repo</name>
-    <url>http://34.135.13.172:8081/repository/mvn-remote-repo/</url>
-  </snapshotRepository>
-</distributionManagement>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot Repo</name>
+      <url>http://34.135.13.172:8081/repository/mvn-remote-repo/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <licenses>
     <license>
